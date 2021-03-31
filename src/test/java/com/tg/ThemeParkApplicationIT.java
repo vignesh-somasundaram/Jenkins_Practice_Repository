@@ -61,6 +61,4 @@ public class ThemeParkApplicationIT {
                 .andExpect(status().isOk())
                 .andReturn();
     }
-
-
 }
