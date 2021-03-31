@@ -10,7 +10,7 @@ import org.springframework.web.server.ResponseStatusException;
 import javax.validation.Valid;
 
 @RestController
-public class ThemeParkRideController {
+public class ThemeParkRideController  {
     private final ThemeParkRideRepository themeParkRideRepository;
 
     public ThemeParkRideController(ThemeParkRideRepository themeParkRideRepository) {
