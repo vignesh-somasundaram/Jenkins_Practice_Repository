@@ -21,7 +21,7 @@ public class ThemeParkApplicationIT {
     private MockMvc mockMvc;
 
     @Test
-    public void getsAllRides() throws Exception {
+    public void getsAllRides() throws Exception  {
         mockMvc.perform(MockMvcRequestBuilders.get("/ride")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
